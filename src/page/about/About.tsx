@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section className="about-section">
       <div className="about-image">
-        {/* Thay bằng ảnh nhóm nếu có */}
+
         <img
           src="https://i.pinimg.com/736x/9c/ff/8f/9cff8fb62c04b0491daa2c1ab6eae4b6.jpg"
           alt="Phim4people team"

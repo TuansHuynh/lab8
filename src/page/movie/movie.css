@@ -1,0 +1,48 @@
+.movie-detail-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px;
+    max-width: 900px;
+    margin: auto;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .poster img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .movie-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .movie-info h1 {
+    font-size: 32px;
+    margin-bottom: 0;
+  }
+  
+  .movie-info h3 {
+    font-size: 20px;
+    margin-top: 0;
+    color: gray;
+  }
+  
+  .movie-info p {
+    margin: 4px 0;
+    line-height: 1.5;
+  }
+  
+  .trailer {
+    margin-top: 24px;
+  }
+  
+  .trailer iframe {
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+  }
+  
